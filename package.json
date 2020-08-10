@@ -1,0 +1,15 @@
+{
+  "name": "case-craft-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page.",
+  "main": "serve.js",
+  "repository": "https://github.com/Animesh-Ghosh/case-craft-landing-page.git",
+  "author": "Animesh-Ghosh <animesh00914902017@msi-ggsip.org>",
+  "license": "AGPL-v3",
+  "scripts": {
+    "serve": "node serve.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
