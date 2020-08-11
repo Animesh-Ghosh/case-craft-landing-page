@@ -10,15 +10,48 @@
   <title>CaseCraft</title>
 </head>
 <body>
-  <div id="container">
+  <section id="hidden">
+    <div class="container">
+      <div id="hidden-menu">
+        <div class="brand">
+          <a href="./index.html">
+            <img class="brand-logo" src="./assets/Layer_x0020_1.svg"/>
+            <h1 class="brand-name">CaseCraft</h1>
+          </a>
+        </div>
+        <div>
+          <object id="cross" data="./assets/cross.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+      <div id="hidden-nav">
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Tutorials</a>
+            </li>
+            <li>
+              <a href="#">Download</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">FAQs</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <div class="container">
     <header>
-      <section id="brand">
+      <div class="brand">
         <a href="./index.html">
-          <img id="brand-logo" src="./assets/Layer_x0020_1.svg"/>
-          <h1 id="brand-name">CaseCraft</h1>
+          <img class="brand-logo" src="./assets/Layer_x0020_1.svg"/>
+          <h1 class="brand-name">CaseCraft</h1>
         </a>
-      </section>
-      <section id="site-navigation">
+      </div>
+      <div id="site-navigation">
         <nav>
           <ul>
             <li>
@@ -38,9 +71,9 @@
         <div>
           <object id="hamburger" data="./assets/hamburger.svg" type="image/svg+xml"></object>
         </div>
-      </section>
+      </div>
     </header>
-    <main>
+    <main id="page-one">
       <section id="cta">
         <p id="cta-text">
           <span id="cta-text-first-word">Design</span> cases for your gadgets
@@ -51,7 +84,10 @@
         <img id="banner-img" src="./assets/Phone PNG.png">
       </section>
     </main>
+    <footer>
+
+    </footer>
   </div>
-  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/main.js" defer=""></script>
 </body>
 </html>
